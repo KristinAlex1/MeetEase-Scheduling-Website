@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #3b5998;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-btn, .signup-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-btn {
+    background-color: #ff5a5f;
+    color: white;
+  }
+  
+  .login-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    background-color: #fff;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero-content span {
+    color: #3b5998;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 1.5rem 0;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cta-primary, .cta-secondary {
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .cta-primary {
+    background-color: #ff5a5f;
+    color: white;
+  }
+  
+  .cta-secondary {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  .no-credit {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .hero-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3b5998;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
